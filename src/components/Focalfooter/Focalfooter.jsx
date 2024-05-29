@@ -9,7 +9,7 @@ export default function Focalfooter() {
                 <Col lg='4' md='6' sm='12' className="my-3">
                     <div>
                         <div>
-                            <img className="agency-img img-fluid" src="./public/imgs/Footerlogo.png" />
+                            <img className="agency-img img-fluid" src="./imgs/Footerlogo.png" />
                             <span className="text-white agency ms-1">.agency</span>
                         </div>
                         <div className="w-50">
