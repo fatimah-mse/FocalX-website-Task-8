@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    font-family: "Inter";
+    --main-color: #ff8500;
+    --marketing-color: #a513ff;
+    --b2b-color: #1d5edd;
+    --development-color: #71aa27;
+    --writings-color: #282828;
+}
+.sec-1-card {
+    height: 500px !important;
+    border-radius: 40px !important;
+}
+h2 {
+    width: max-content;
+    border-bottom: 4px solid;
+}
+.branding {
+    border-bottom-color: var(--main-color);
+}
+.markrting {
+    border-bottom-color: var(--marketing-color);
+}
+.Web {
+    border-bottom-color: var(--development-color);
+}
+.B2B {
+    border-bottom-color: var(--b2b-color);
+}
+.card-image {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+@media screen and (max-width:992px) {
+    .sec-1 {
+        margin: 120px 0 50px 0;
+    }
+}
+@media screen and (max-width:620px) {
+    .sec-1-card {
+        height: max-content !important;
+    }
+    .card-image {
+        width: 250px;
+        position: relative;
+    }
+}

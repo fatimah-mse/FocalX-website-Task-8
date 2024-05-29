@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    font-family: "Inter";
+    --writings-color: #282828;
+}
+footer {
+    background-color: var(--writings-color);
+}
+.agency-img {
+    width: max-content;
+}
+.agency {
+    vertical-align: -14px;
+
+}

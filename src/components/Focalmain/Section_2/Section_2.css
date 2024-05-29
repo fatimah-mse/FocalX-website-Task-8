@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    font-family: "Inter";
+    --main-color: #ff8500;
+    --marketing-color: #a513ff;
+    --b2b-color: #1d5edd;
+    --development-color: #71aa27;
+    --writings-color: #282828;
+}
+.sec-2 {
+    background-color: var(--writings-color);
+}
+.sec-2-card {
+    border-radius: 10px !important;
+}
+.card-head {
+    height: 25px;
+    border-radius: 10px 10px 0 0 ;
+}
+.card-head-basic {
+    background-color: var(--main-color);
+}
+.card-head-Pro {
+    background-color: var(--marketing-color);
+}
+.card-head-Business {
+    background-color: var(--development-color);
+}
+.card-head-Enterprise {
+    background-color: var(--b2b-color);
+}
+.sec-2-card-footer {
+    border: 2px solid;
+}
+.sec-2-card-footer-basic  {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+.sec-2-card-footer-Pro  {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+.sec-2-card-footer-Business  {
+    border-color: var(--development-color);
+    color: var(--development-color);
+}
+.sec-2-card-footer-Enterprise  {
+    border-color: var(--b2b-color);
+    color: var(--b2b-color);
+}
+@media screen and (max-width:992px) {
+    span {
+        display: none;
+    }
+}
