@@ -6,6 +6,8 @@ export default function Section_2() {
         {
           title: "basic",
           desc: "for very small businesses and freelancers.",
+          num: "2.5",
+          txt: "",
           disk: "500 M.B",
           bandwidth: "500 G.B",
           subDomains: "Unlimited",
@@ -18,6 +20,8 @@ export default function Section_2() {
         {
           title: "Pro",
           desc: "for Individuals that need sharing vlogs or need huge portfolio.",
+          num: "5",
+          txt: "",
           disk: "3000 M.B",
           bandwidth: "3 TERA",
           subDomains: "Unlimited",
@@ -30,6 +34,8 @@ export default function Section_2() {
         {
           title: "Business",
           desc: "for Team that need sharing and reporting.",
+          num: "8",
+          txt: "5% discount during 2022",
           disk: "5000 M.B",
           bandwidth: "5 TERA",
           subDomains: "Unlimited",
@@ -42,6 +48,8 @@ export default function Section_2() {
         {
           title: "Enterprise",
           desc: "for large companies that need admins & security.",
+          num: "12",
+          txt: "8% discount during 2022",
           disk: "10000  M.B",
           bandwidth: "10 TERA",
           subDomains: "Unlimited",
@@ -51,7 +59,7 @@ export default function Section_2() {
           money: "14 Days",
           box: "Just Call Us"
         }
-      ]
+    ]
 
     return (
         <section className="sec-2 px-4 py-5">
@@ -64,6 +72,10 @@ export default function Section_2() {
                         <div className={`card-head card-head-${Price.title} w-100`}></div>
                         <div className='p-4'>
                             <h4 className='text-capitalize'>{Price.title}</h4>
+                                <div className='d-flex justify-content-between align-items-center my-4'>
+                                <h5>${Price.num}/mo</h5>
+                                <p className='txt'>{Price.txt}</p>
+                            </div>
                             <p className='mb-4'>{Price.desc}</p>
                             <p className='mb-0'>Disk Space: <strong>{Price.disk}</strong></p>
                             <p className='mb-0'>Bandwidth: <strong>{Price.bandwidth}</strong></p>
@@ -84,7 +96,7 @@ export default function Section_2() {
             <div className='d-flex flex-column flex-lg-row justify-content-center align-items-center'>
                 <p className='text-white text-center my-1'>Go Online, choose your plan and Contact us on: </p>
                 <a className='text-decoration-none text-white mx-4 my-1' href="mailto: contact@focal-x.com">contact@focal-x.com</a> 
-                <span className='text-white'>|</span> 
+                <span className='OR text-white'>|</span> 
                 <a className='text-decoration-none text-white mx-4 my-1' href="tel:+963 935 033 139">+963 935 033 139</a>
             </div>
         </Container>

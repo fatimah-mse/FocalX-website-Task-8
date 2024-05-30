@@ -5,10 +5,9 @@
     --marketing-color: #a513ff;
     --b2b-color: #1d5edd;
     --development-color: #71aa27;
-    --writings-color: #282828;
 }
 .sec-1-card {
-    height: 500px !important;
+    height: 480px !important;
     border-radius: 40px !important;
 }
 h2 {
@@ -31,6 +30,11 @@ h2 {
     position: absolute;
     bottom: 0;
     right: 25px;
+}
+.card-bg {
+    left: 50%;
+    transform: translate(-50% , -15px);
+    width: 90%;
 }
 @media screen and (max-width:992px) {
     .sec-1 {
