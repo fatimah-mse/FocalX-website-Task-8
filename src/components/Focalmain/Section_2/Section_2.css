@@ -37,8 +37,8 @@
     color: var(--main-color);
 }
 .sec-2-card-footer-Pro  {
-    border-color: var(--main-color);
-    color: var(--main-color);
+    border-color: var(--marketing-color);
+    color: var(--marketing-color);
 }
 .sec-2-card-footer-Business  {
     border-color: var(--development-color);

@@ -35,7 +35,7 @@ export default function Focalfooter() {
           )
         },
         {
-          heading: "Useful Links",
+          heading: "Keep in Touch",
           content: (
             <>
             <div className='mb-1 mb-md-3'>
